@@ -7,7 +7,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* beige */
+    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
 }
@@ -71,6 +71,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game Library */
+
+#new-games .card,
+#fav-games .card {
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+
 /* grid visualisation CSS for testing */
 
 /* .Container,
@@ -86,7 +95,7 @@ h2 {
 /* Media queries */
 
 /* Medium devices (tablets and up) */
-@media screen and (min-width:750px) {
+@media screen and (min-width: 750px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
@@ -94,7 +103,7 @@ h2 {
 }
 
 /* large devices (small laptops 992px and up) */
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
@@ -102,7 +111,7 @@ h2 {
 }
 
 /* xl devices (laptops 1200px and up) */
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
@@ -110,7 +119,7 @@ h2 {
 }
 
 /* xxl devices (laptops 1400px and up) */
-@media screen and (min-width:1400px) {
+@media screen and (min-width: 1400px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
