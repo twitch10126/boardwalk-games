@@ -46,26 +46,26 @@ h2 {
 /* Buttons */
 
 .custom-button-filled {
-    border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
-    color: white;
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 .custom-button-filled:hover {
-    border: 2px solid var(--secondary-color);
-    background-color: var(--secondary-color);
-    color: white;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .custom-button-outline {
-    border: 2px solid var(--highlight-color);
-    padding: 7px 25px;
-    color: var(--highlight-color);
+  border: 2px solid var(--highlight-color);
+  padding: 7px 25px;
+  color: var(--highlight-color);
 }
 
 .custom-button-outline:hover {
-    background-color: var(--highlight-color);
-    color: white;
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 /* navbar */
@@ -95,12 +95,19 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .table {
+    font-size: 0.8rem;
+}
+
 /* Game Library */
 
 #new-games .card,
 #fav-games .card {
   border: none;
 }
+
 
 /* Footer / contact */
 
@@ -134,8 +141,8 @@ h2 {
   color: var(--secondary-color);
 }
 
-#contact .table-dark *{
- background-color: transparent;
+#contact .table-dark * {
+  background-color: transparent;
 }
 /* grid visualisation CSS for testing */
 
@@ -146,16 +153,21 @@ h2 {
 
 .col-12 {
     border: 2px solid white;
-    background-color:  lightgrey;
+    background-color:  lightgray;
 } */
 
 /* Media queries */
 
-/* Medium devices (tablets 750px and up) */
-@media screen and (min-width: 750px) {
+/* Medium devices (tablets 768px and up) */
+@media screen and (min-width: 768px) {
   /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: 191px;
+  }
+
+  #event-table p {
+    width: 300px;
+    justify-self: center;
   }
 }
 
