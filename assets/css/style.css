@@ -98,7 +98,13 @@ h2 {
 /* Events */
 
 #events .table {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+}
+
+#events table ~ p {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 /* Game Library */
@@ -107,7 +113,6 @@ h2 {
 #fav-games .card {
   border: none;
 }
-
 
 /* Footer / contact */
 
