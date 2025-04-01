@@ -114,6 +114,11 @@ h2 {
   border: none;
 }
 
+/* Reserve */
+
+#reservation form {
+  font-size: 0.8rem;
+}
 /* Footer / contact */
 
 #contact {
@@ -173,6 +178,12 @@ h2 {
   #event-table p {
     width: 300px;
     justify-self: center;
+  }
+
+  #reservation {
+    justify-items: center;
+    width: auto;
+    margin-top: 200px;;
   }
 }
 
