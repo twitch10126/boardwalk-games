@@ -102,9 +102,13 @@ h2 {
 }
 
 #events table ~ p {
-  border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  max-width: 300px;
+  padding: 5px 10px;
+  margin: auto;
 }
 
 /* Game Library */
@@ -119,6 +123,7 @@ h2 {
 #reservation form {
   font-size: 0.8rem;
 }
+
 /* Footer / contact */
 
 #contact {
@@ -173,17 +178,6 @@ h2 {
   /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: 191px;
-  }
-
-  #event-table p {
-    width: 300px;
-    justify-self: center;
-  }
-
-  #reservation {
-    justify-items: center;
-    width: auto;
-    margin-top: 200px;;
   }
 }
 
